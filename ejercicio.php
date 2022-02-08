@@ -1,5 +1,5 @@
 <?php
-$d=rand(1,- 4000);
+$d=rand( 1 , 4000);
 $pesos =4000;
 define("dolar","4000");
 
