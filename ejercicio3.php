@@ -3,7 +3,7 @@ define("IVA", 19);
 $canProducto=15;
 $valoruni=43000;
 $valorSiniva=$canProducto*$valoruni;
-$valoriva=($valorSiniva*19);
+$valoriva=($valorSiniva*19)/100;
 $totaliva=$valorSiniva+$valoriva;
 
 
