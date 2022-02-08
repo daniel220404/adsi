@@ -1,10 +1,10 @@
 <?php
-define("producto","43000");
-$canProducto = rand( 15 , 43000);
-$conversion = producto * $canProducto;
-$valorSiniva = 
-$valorConiva = producto * $canProducto + 0.19;
+define("IVA", 19);
+$canProducto=15;
+$valoruni=43000;
+$valorSiniva=$canProducto*$valoruni;
+$valoriva=($valorSiniva*19);
+$totaliva=$valorSiniva+$valoriva;
 
-echo "segun la cantidad de productos: ".$canProducto."<br>";
-echo "usted tiene en productos la suma de $ " .$conversion;
-echo "valor del iva";
+
+echo ("Su valor sin iva es  ".$valorSiniva." ".("el 19% de su valor es  ").$valoriva."  ".("Su total con iva es  ").$totaliva);
