@@ -5,7 +5,8 @@ $validar - $numero%2;
 if ($validar === 0) {
     echo "el numero a validar es: ",$numero, "<br>";
     echo "el numero es par";
-}else
+}else{
     echo "el numero a validar es: ",$numero, "<br>";
     echo "el numero es impar";
 }
+?>
